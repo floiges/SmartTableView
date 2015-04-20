@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E76DB11D1AE4822A006E4206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DB11C1AE4822A006E4206 /* Foundation.framework */; };
+		E76DB11F1AE4822B006E4206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DB11E1AE4822B006E4206 /* CoreGraphics.framework */; };
+		E76DB1211AE4822B006E4206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DB1201AE4822B006E4206 /* UIKit.framework */; };
+		E76DB1271AE4822B006E4206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E76DB1251AE4822B006E4206 /* InfoPlist.strings */; };
+		E76DB1291AE4822B006E4206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB1281AE4822B006E4206 /* main.m */; };
+		E76DB12D1AE4822B006E4206 /* LYDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB12C1AE4822B006E4206 /* LYDAppDelegate.m */; };
+		E76DB1301AE4822B006E4206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76DB12E1AE4822B006E4206 /* Main.storyboard */; };
+		E76DB1351AE4822B006E4206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76DB1341AE4822B006E4206 /* Images.xcassets */; };
+		E76DB13C1AE4822B006E4206 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DB13B1AE4822B006E4206 /* XCTest.framework */; };
+		E76DB13D1AE4822B006E4206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DB11C1AE4822A006E4206 /* Foundation.framework */; };
+		E76DB13E1AE4822B006E4206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DB1201AE4822B006E4206 /* UIKit.framework */; };
+		E76DB1461AE4822B006E4206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E76DB1441AE4822B006E4206 /* InfoPlist.strings */; };
+		E76DB1481AE4822B006E4206 /* SmartTableViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB1471AE4822B006E4206 /* SmartTableViewSampleTests.m */; };
+		E76DB1541AE482FF006E4206 /* LYDSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB1531AE482FF006E4206 /* LYDSmartTableViewCell.m */; };
+		E76DB1571AE48A5E006E4206 /* LYDNibBasedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB1561AE48A5E006E4206 /* LYDNibBasedTableViewCell.m */; };
+		E76DB15B1AE48EB7006E4206 /* LYDGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB15A1AE48EB7006E4206 /* LYDGradientView.m */; };
+		E76DB15E1AE48FF7006E4206 /* LYDTwoToneTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB15D1AE48FF7006E4206 /* LYDTwoToneTableView.m */; };
+		E76DB1611AE493DB006E4206 /* LYDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB1601AE493DB006E4206 /* LYDTableViewController.m */; };
+		E76DB1641AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DB1631AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E76DB13F1AE4822B006E4206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76DB1111AE4822A006E4206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76DB1181AE4822A006E4206;
+			remoteInfo = SmartTableViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E76DB1191AE4822A006E4206 /* SmartTableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76DB11C1AE4822A006E4206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E76DB11E1AE4822B006E4206 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E76DB1201AE4822B006E4206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E76DB1241AE4822B006E4206 /* SmartTableViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartTableViewSample-Info.plist"; sourceTree = "<group>"; };
+		E76DB1261AE4822B006E4206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E76DB1281AE4822B006E4206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E76DB12A1AE4822B006E4206 /* SmartTableViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTableViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		E76DB12B1AE4822B006E4206 /* LYDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDAppDelegate.h; sourceTree = "<group>"; };
+		E76DB12C1AE4822B006E4206 /* LYDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDAppDelegate.m; sourceTree = "<group>"; };
+		E76DB12F1AE4822B006E4206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E76DB1341AE4822B006E4206 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E76DB13A1AE4822B006E4206 /* SmartTableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76DB13B1AE4822B006E4206 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E76DB1431AE4822B006E4206 /* SmartTableViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartTableViewSampleTests-Info.plist"; sourceTree = "<group>"; };
+		E76DB1451AE4822B006E4206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E76DB1471AE4822B006E4206 /* SmartTableViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewSampleTests.m; sourceTree = "<group>"; };
+		E76DB1521AE482FF006E4206 /* LYDSmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDSmartTableViewCell.h; sourceTree = "<group>"; };
+		E76DB1531AE482FF006E4206 /* LYDSmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDSmartTableViewCell.m; sourceTree = "<group>"; };
+		E76DB1551AE48A5E006E4206 /* LYDNibBasedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDNibBasedTableViewCell.h; sourceTree = "<group>"; };
+		E76DB1561AE48A5E006E4206 /* LYDNibBasedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDNibBasedTableViewCell.m; sourceTree = "<group>"; };
+		E76DB1591AE48EB7006E4206 /* LYDGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDGradientView.h; sourceTree = "<group>"; };
+		E76DB15A1AE48EB7006E4206 /* LYDGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDGradientView.m; sourceTree = "<group>"; };
+		E76DB15C1AE48FF7006E4206 /* LYDTwoToneTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDTwoToneTableView.h; sourceTree = "<group>"; };
+		E76DB15D1AE48FF7006E4206 /* LYDTwoToneTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDTwoToneTableView.m; sourceTree = "<group>"; };
+		E76DB15F1AE493DB006E4206 /* LYDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDTableViewController.h; sourceTree = "<group>"; };
+		E76DB1601AE493DB006E4206 /* LYDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDTableViewController.m; sourceTree = "<group>"; };
+		E76DB1621AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDSynchronizedUIActionSheet.h; sourceTree = "<group>"; };
+		E76DB1631AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDSynchronizedUIActionSheet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E76DB1161AE4822A006E4206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76DB11F1AE4822B006E4206 /* CoreGraphics.framework in Frameworks */,
+				E76DB1211AE4822B006E4206 /* UIKit.framework in Frameworks */,
+				E76DB11D1AE4822A006E4206 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76DB1371AE4822B006E4206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76DB13C1AE4822B006E4206 /* XCTest.framework in Frameworks */,
+				E76DB13E1AE4822B006E4206 /* UIKit.framework in Frameworks */,
+				E76DB13D1AE4822B006E4206 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E76DB1101AE4822A006E4206 = {
+			isa = PBXGroup;
+			children = (
+				E76DB1221AE4822B006E4206 /* SmartTableViewSample */,
+				E76DB1411AE4822B006E4206 /* SmartTableViewSampleTests */,
+				E76DB11B1AE4822A006E4206 /* Frameworks */,
+				E76DB11A1AE4822A006E4206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E76DB11A1AE4822A006E4206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1191AE4822A006E4206 /* SmartTableViewSample.app */,
+				E76DB13A1AE4822B006E4206 /* SmartTableViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E76DB11B1AE4822A006E4206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB11C1AE4822A006E4206 /* Foundation.framework */,
+				E76DB11E1AE4822B006E4206 /* CoreGraphics.framework */,
+				E76DB1201AE4822B006E4206 /* UIKit.framework */,
+				E76DB13B1AE4822B006E4206 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E76DB1221AE4822B006E4206 /* SmartTableViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1581AE48EA1006E4206 /* Views */,
+				E76DB1511AE482D1006E4206 /* Custom Cells */,
+				E76DB12B1AE4822B006E4206 /* LYDAppDelegate.h */,
+				E76DB12C1AE4822B006E4206 /* LYDAppDelegate.m */,
+				E76DB12E1AE4822B006E4206 /* Main.storyboard */,
+				E76DB1341AE4822B006E4206 /* Images.xcassets */,
+				E76DB1231AE4822B006E4206 /* Supporting Files */,
+				E76DB15F1AE493DB006E4206 /* LYDTableViewController.h */,
+				E76DB1601AE493DB006E4206 /* LYDTableViewController.m */,
+			);
+			path = SmartTableViewSample;
+			sourceTree = "<group>";
+		};
+		E76DB1231AE4822B006E4206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1241AE4822B006E4206 /* SmartTableViewSample-Info.plist */,
+				E76DB1251AE4822B006E4206 /* InfoPlist.strings */,
+				E76DB1281AE4822B006E4206 /* main.m */,
+				E76DB12A1AE4822B006E4206 /* SmartTableViewSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E76DB1411AE4822B006E4206 /* SmartTableViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1471AE4822B006E4206 /* SmartTableViewSampleTests.m */,
+				E76DB1421AE4822B006E4206 /* Supporting Files */,
+			);
+			path = SmartTableViewSampleTests;
+			sourceTree = "<group>";
+		};
+		E76DB1421AE4822B006E4206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1431AE4822B006E4206 /* SmartTableViewSampleTests-Info.plist */,
+				E76DB1441AE4822B006E4206 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E76DB1511AE482D1006E4206 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1521AE482FF006E4206 /* LYDSmartTableViewCell.h */,
+				E76DB1531AE482FF006E4206 /* LYDSmartTableViewCell.m */,
+				E76DB1551AE48A5E006E4206 /* LYDNibBasedTableViewCell.h */,
+				E76DB1561AE48A5E006E4206 /* LYDNibBasedTableViewCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		E76DB1581AE48EA1006E4206 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E76DB1591AE48EB7006E4206 /* LYDGradientView.h */,
+				E76DB15A1AE48EB7006E4206 /* LYDGradientView.m */,
+				E76DB15C1AE48FF7006E4206 /* LYDTwoToneTableView.h */,
+				E76DB15D1AE48FF7006E4206 /* LYDTwoToneTableView.m */,
+				E76DB1621AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.h */,
+				E76DB1631AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E76DB1181AE4822A006E4206 /* SmartTableViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76DB14B1AE4822B006E4206 /* Build configuration list for PBXNativeTarget "SmartTableViewSample" */;
+			buildPhases = (
+				E76DB1151AE4822A006E4206 /* Sources */,
+				E76DB1161AE4822A006E4206 /* Frameworks */,
+				E76DB1171AE4822A006E4206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTableViewSample;
+			productName = SmartTableViewSample;
+			productReference = E76DB1191AE4822A006E4206 /* SmartTableViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76DB1391AE4822B006E4206 /* SmartTableViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76DB14E1AE4822B006E4206 /* Build configuration list for PBXNativeTarget "SmartTableViewSampleTests" */;
+			buildPhases = (
+				E76DB1361AE4822B006E4206 /* Sources */,
+				E76DB1371AE4822B006E4206 /* Frameworks */,
+				E76DB1381AE4822B006E4206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76DB1401AE4822B006E4206 /* PBXTargetDependency */,
+			);
+			name = SmartTableViewSampleTests;
+			productName = SmartTableViewSampleTests;
+			productReference = E76DB13A1AE4822B006E4206 /* SmartTableViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E76DB1111AE4822A006E4206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zoomlgd;
+				TargetAttributes = {
+					E76DB1391AE4822B006E4206 = {
+						TestTargetID = E76DB1181AE4822A006E4206;
+					};
+				};
+			};
+			buildConfigurationList = E76DB1141AE4822A006E4206 /* Build configuration list for PBXProject "SmartTableViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E76DB1101AE4822A006E4206;
+			productRefGroup = E76DB11A1AE4822A006E4206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76DB1181AE4822A006E4206 /* SmartTableViewSample */,
+				E76DB1391AE4822B006E4206 /* SmartTableViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E76DB1171AE4822A006E4206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76DB1351AE4822B006E4206 /* Images.xcassets in Resources */,
+				E76DB1271AE4822B006E4206 /* InfoPlist.strings in Resources */,
+				E76DB1301AE4822B006E4206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76DB1381AE4822B006E4206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76DB1461AE4822B006E4206 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E76DB1151AE4822A006E4206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76DB15B1AE48EB7006E4206 /* LYDGradientView.m in Sources */,
+				E76DB1541AE482FF006E4206 /* LYDSmartTableViewCell.m in Sources */,
+				E76DB12D1AE4822B006E4206 /* LYDAppDelegate.m in Sources */,
+				E76DB15E1AE48FF7006E4206 /* LYDTwoToneTableView.m in Sources */,
+				E76DB1611AE493DB006E4206 /* LYDTableViewController.m in Sources */,
+				E76DB1291AE4822B006E4206 /* main.m in Sources */,
+				E76DB1571AE48A5E006E4206 /* LYDNibBasedTableViewCell.m in Sources */,
+				E76DB1641AE49FC0006E4206 /* LYDSynchronizedUIActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76DB1361AE4822B006E4206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76DB1481AE4822B006E4206 /* SmartTableViewSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E76DB1401AE4822B006E4206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76DB1181AE4822A006E4206 /* SmartTableViewSample */;
+			targetProxy = E76DB13F1AE4822B006E4206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E76DB1251AE4822B006E4206 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76DB1261AE4822B006E4206 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E76DB12E1AE4822B006E4206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76DB12F1AE4822B006E4206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E76DB1441AE4822B006E4206 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76DB1451AE4822B006E4206 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E76DB1491AE4822B006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E76DB14A1AE4822B006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E76DB14C1AE4822B006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "SmartTableViewSample/SmartTableViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E76DB14D1AE4822B006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "SmartTableViewSample/SmartTableViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E76DB14F1AE4822B006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartTableViewSample.app/SmartTableViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartTableViewSampleTests/SmartTableViewSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E76DB1501AE4822B006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartTableViewSample.app/SmartTableViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "SmartTableViewSampleTests/SmartTableViewSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E76DB1141AE4822A006E4206 /* Build configuration list for PBXProject "SmartTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76DB1491AE4822B006E4206 /* Debug */,
+				E76DB14A1AE4822B006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76DB14B1AE4822B006E4206 /* Build configuration list for PBXNativeTarget "SmartTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76DB14C1AE4822B006E4206 /* Debug */,
+				E76DB14D1AE4822B006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E76DB14E1AE4822B006E4206 /* Build configuration list for PBXNativeTarget "SmartTableViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76DB14F1AE4822B006E4206 /* Debug */,
+				E76DB1501AE4822B006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E76DB1111AE4822A006E4206 /* Project object */;
+}
